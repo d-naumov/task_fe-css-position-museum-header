@@ -1,12 +1,17 @@
 main {
   height: 200vh;
+  
 }
-
-/* твой код */
-
-
-
-
+.navbar {
+  padding: 10px; /* Отступы для текста внутри блока */
+  color: #ffffff; /* Цвет текста */
+  text-decoration: underline white ;
+  background-color: rgb(102,102,102); 
+}
+.navbar > a {
+  margin-right: 10px;/* Горизонтальный отступ между ссылками */
+  color:white;
+}
 
 
 @font-face {
