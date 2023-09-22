@@ -2,11 +2,16 @@ main {
   height: 200vh;
   
 }
+
 .navbar {
   padding: 10px; /* Отступы для текста внутри блока */
   color: #ffffff; /* Цвет текста */
   text-decoration: underline white ;
   background-color: rgb(102,102,102); 
+  position: fixed; /* Фиксированная позиция */
+ /* top: 8em; /* Позиция сверху */
+  width: 100%; /* Ширина навигационной панели на всю ширину экрана */
+  padding: 20px; 
 }
 .navbar > a {
   margin-right: 10px;/* Горизонтальный отступ между ссылками */
