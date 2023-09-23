@@ -8,14 +8,28 @@ main {
   color: #ffffff; /* Цвет текста */
   text-decoration: underline white ;
   background-color: rgb(102,102,102); 
-  position: fixed; /* Фиксированная позиция */
- /* top: 8em; /* Позиция сверху */
+  position: sticky; /* элемент остается в потоке. и остается на месте */
+  top: 0px; /* Позиция сверху
   width: 100%; /* Ширина навигационной панели на всю ширину экрана */
   padding: 20px; 
+  transition: background-color 0.3s ease; /* Плавное изменение цвета фона */
 }
 .navbar > a {
   margin-right: 10px;/* Горизонтальный отступ между ссылками */
   color:white;
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Плавное изменение цвета фона и масштаба */
+ 
+}
+
+/* Эффект при наведении на ссылки */
+.navbar > a:hover {
+  background-color:blue; /* Изменение цвета фона при наведении */
+  transform: scale(1.05); /* Увеличение размера при наведении */
+}
+
+/* Эффект при активной ссылке */
+.navbar > a:active {
+  background-color: #ff4141; /* Изменение цвета фона при активации (клике) */
 }
 
 
