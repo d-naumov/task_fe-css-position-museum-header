@@ -9,7 +9,7 @@ main {
   text-decoration: underline white ;
   background-color: rgb(102,102,102); 
   position: sticky; /* элемент остается в потоке. и остается на месте */
-  top: 0px; /* Позиция сверху
+  top: 0px; /* Позиция сверху */
   width: 100%; /* Ширина навигационной панели на всю ширину экрана */
   padding: 20px; 
   transition: background-color 0.3s ease; /* Плавное изменение цвета фона */
