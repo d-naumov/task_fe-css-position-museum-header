@@ -13,12 +13,23 @@ main {
   width: 100%; /* Ширина навигационной панели на всю ширину экрана */
   padding: 20px; 
   transition: background-color 0.3s ease; /* Плавное изменение цвета фона */
+
+  display: flex;
+  justify-content: flex-start;
+  gap: 25px;
 }
-.navbar > a {
+/* .navbar > a {
   margin-right: 10px;/* Горизонтальный отступ между ссылками */
-  color:white;
+  /* color:white;
   transition: background-color 0.3s ease, transform 0.2s ease; /* Плавное изменение цвета фона и масштаба */
+  /* font-family: "NarrowNews"; */
  
+/* }  */
+
+.nav-item{
+  text-decoration: underline;
+  color:white;
+  font-family: "NarrowNews";
 }
 
 /* Эффект при наведении на ссылки */
